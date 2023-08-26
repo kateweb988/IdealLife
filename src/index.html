@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<meta name="robots" content="noindex">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<title>IdealLife</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<h2 style="text-align: center; margin: 40px auto; color: black">
+		Pages
+	</h2>
+	<ul class="mm" style="display: flex; max-width: 800px; margin: 0 auto 50px; flex-wrap: wrap;">
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="main.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Главная</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="personal.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Личный
+				кабинет</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="thank.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Спасибо</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="contacts.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Контакты</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="blog.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Блог</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="article.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Статья</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="catalog.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Каталог</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="catalog-online.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Каталог-онлайн</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="filter.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Фильтр</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="author.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Автор</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="faq.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">FAQ</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="order.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Заказ</a>
+		</li>
+	</ul>
+
+	<div class="d-flex"
+		style="justify-content: center; margin-top: 80px; max-width: 1000px; margin: 0 auto; flex-wrap: wrap;">
+		<a href="#" class="btn btn_1 a1" style=" margin: 20px;">
+			Подарки и бонусы
+		</a>
+		<a href="#" class="btn btn_white" style="margin: 20px;">
+			Перейти в каталог игр
+		</a>
+		<a href="#" class="bttn q" style="margin: 20px;">
+			<div>
+				Добавить в корзину
+			</div>
+			<div>
+				<img src="/img/basket.svg" alt="" class="svg">
+			</div>
+		</a>
+	</div>
+	<div class="popup__bg" id="popup">
+		<div class="popup">
+			<img src="/img/close.svg" alt="" class="close-popup">
+			<div class="popup__wrap">
+				<p class="popup__title">
+					Регистрация
+				</p>
+				<form action="success.php" class="popup__form js-form" id="popupResult" method="post">
+					<div class="popup__item">
+						<label>
+							Как вас зовут?
+						</label>
+						<input type="text" name="name" required="" placeholder="Игнатьев Валерий Николаевич"
+							class="form__field">
+					</div>
+					<div class="popup__item">
+						<label>
+							Ваш телефон
+						</label>
+						<input type="tel" name="tel" required="" placeholder="+7 (958) 471-99-15" class="tel form__field">
+					</div>
+					<div class="popup__item">
+						<label>
+							Ваш e-mail
+						</label>
+						<input type="email" name="email" required="" placeholder="example@gmail.com" class="form__field">
+					</div>
+					<button class="popup__btn btn" data-submit>
+						Зарегистрироваться
+					</button>
+					<div class="popup__flex q">
+						<input class="form-check-input custom-checkbox" type="checkbox" name="t1" id="form1" value="Согласен">
+						<label class="form-check-label " for="form1">
+							Согласен(а) с Политикой <br> конфиденциальности
+						</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+
+	<script src="js/all.js"></script>
+</body>
+
+</html>

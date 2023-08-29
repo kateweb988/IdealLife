@@ -21,6 +21,8 @@
       max-width: 1055px
    .art .rev__nav
       right: 0
+   .game4__box
+      padding-left: 11%
 @media screen and (max-width: 1300px)
    .header__bg 
       left: -395px
@@ -36,6 +38,22 @@
       max-width: 80%
    .faq__box:before
       left: -483%
+   .game4__box 
+      padding-left: 9%
+   .games-item__box 
+      .game4__content
+         max-width: 480px
+   .games-item__wrap img 
+      width: 45%
+   .popup2, .popup3, .popup4, .popup5, .popup6, .popup7, .popup8, .popup9
+      width: 90%
+   .close-popup2, .close-popup3, .close-popup4, .close-popup5, .close-popup6, .close-popup7, .close-popup8, .close-popup9
+      right: 0
+   .area3__link 
+      top: 576px
+      right: -36%
+   .area8__info
+      margin-right: 50px
 @media screen and (max-width: 1199px)
    .sub 
       display: none
@@ -245,6 +263,74 @@
       margin-bottom: 120px
    .order__info
       margin-bottom: 40px
+   .game4__box:before
+      display: none
+   .game4__box 
+      padding-left: 0
+      margin-top: 100px
+   .game4__item
+      flex-direction: column-reverse
+   .game4__box h2
+      margin-bottom: 40px
+   .game4__pic
+      width: 555px
+      margin: 0 auto 40px
+   .game4__content
+      margin: 0 auto
+   .game4__basket
+      margin-top: 40px
+   .game4__box h2
+      text-align: center
+      margin-bottom: 30px
+   .game4__item_2
+      flex-direction: column
+   .games-item__box .game4__content 
+      max-width: 555px
+   .games-item__box .game4__basket
+      margin-top: 40px
+   .boss__flex
+      flex-direction: column-reverse
+      align-items: center
+   .boss__info
+      margin-top: 24px
+      max-width: 100%
+      display: flex
+      flex-direction: column
+   .boss__line
+      order: 1
+      margin-top: 0  
+      justify-content: center
+   .boss__rec 
+      order: 2
+      margin-top: 40px
+      p 
+         font-size: 16px
+         line-height: 150%
+   .boss__wrap, .boss__bottom
+     display: none 
+   .area__top
+      flex-direction: column
+      align-items: flex-start
+      margin-bottom: 365px
+      h1 
+         margin-bottom: 20px !important
+   .area
+      .tabs__nav
+         top: 213px
+         flex-direction: column
+         .area__link 
+            margin-bottom: 20px
+            margin-right: 0
+   .area__name
+      margin-bottom: 30px
+   .area__buy
+      margin-bottom: 80px
+   .popup__video
+      width: 100%
+   #area5 .area__top
+      margin-bottom: 365px
+   #area6 .area__top
+      margin-bottom: 365px
 @media ( max-width: 991px )
    input, textarea, select
       -webkit-appearance: none
@@ -381,6 +467,54 @@
          height: 56px
          font-size: 20px
          text-transform: none
+   .games-item__box .swiper2
+      width: 100%
+   .games-item__box .swiper3
+      width: 100%
+   .games-item__wrap img
+      display: none
+   .games-item__box .popup__form
+      max-width: 100%
+   .basket__text
+      display: none
+   .basket__row
+      flex-wrap: wrap
+   .basket__item
+      width: 100%
+      margin-bottom: 40px
+      &:last-child
+         margin-bottom: 0
+   .area3__link 
+      top: 0
+      right: 0
+      position: relative
+      margin: -10px 0 34px
+   .area__name_el
+      display: none
+   .area5__flex
+      flex-direction: column-reverse
+      align-items: flex-start
+      a 
+         margin-bottom: 20px
+   #area5 
+      .games-item__wrap img
+         display: block
+         width: 100%
+         margin-bottom: 40px
+         height: 200px
+         object-fit: cover
+      .games-item__wrap
+         flex-direction: column-reverse
+      .area5__sub
+         margin-bottom: 40px 
+      .popup__form
+         max-width: 100%
+   .area8__row
+      flex-direction: column 
+      align-items: flex-start
+   .area8__info
+      margin-right: 0
+      margin-bottom: 40px
 @media screen and (max-width: 767px)
    h1 
       font-size: 40px
@@ -449,6 +583,60 @@
       margin-top: 0
       width: 100% 
       align-items: flex-start
+   .game4__pic
+      width: 100%
+   .games-item__box .swiper2 .swiper-slide
+      min-height: auto
+   #incdec, #incdec2, #incdec3
+      position: absolute
+      left: 40px
+      bottom: 0
+   .basket__pic
+      width: 105px
+      height: 105px
+   .basket__name
+      font-size: 20px
+   .basket__note
+      position: relative
+      width: 100%
+      align-items: flex-start
+   #incdec #up, #incdec #up2, #incdec #up3, #incdec2 #up, #incdec2 #up2, #incdec2 #up3, #incdec3 #up, #incdec3 #up2, #incdec3 #up3 
+      top: 13px
+      transform: rotate(90deg)
+      right: -32px
+      left: inherit
+   #incdec #down, #incdec #down2, #incdec #down3, #incdec2 #down, #incdec2 #down2, #incdec2 #down3, #incdec3 #down, #incdec3 #down2, #incdec3 #down3
+      top: 13px
+      transform: rotate(90deg)
+      left: -32px
+   .basket__close 
+      margin-left: 0
+      position: absolute
+      right: 0
+      bottom: 5px
+   .basket__wrap
+      width: 100%
+   .basket__bottom
+      margin-top: 80px
+   .basket__sub
+      display: none
+   .basket__item img
+      height: 200px
+   .popup__video
+      height: 260px
+   .area3__bottom
+      flex-direction: column 
+      align-items: flex-start
+      margin-top: 40px
+   .area3__info
+      margin-top: 16px
+   .area3__row
+      flex-direction: column-reverse
+      align-items: flex-start
+   .area3__tags
+      margin-bottom: 40px
+   .area3__row
+      margin-bottom: 16px
 @media screen and (max-width: 576px)
    button:active, button:focus 
       outline: none
@@ -729,6 +917,163 @@
          margin-bottom: 30px !important
    .order .popup__form label
       margin-bottom: 20px
+   .game1__card
+      display: block
+      width: 80%
+      margin: 0 auto
+      img 
+         width: 100%
+   .selectCF .searchCF
+      display: none
+   .game1__sub 
+      font-size: 27px
+      line-height: 117%
+   .game1__info 
+      font-size: 16px
+      line-height: 150%
+   .game4__box h2
+      margin-bottom: 40px
+   .game4__basket
+      width: 100%
+      height: 40px
+   .game4__pic
+      margin-bottom: 30px
+   .game4__item
+      margin-bottom: 60px
+   .game4__content p
+      font-size: 16px
+   .games-item__pic 
+      width: 100%
+      margin-bottom: 24px
+      height: 260px
+      object-fit: cover
+   .games-item__box
+      position: relative
+      padding-top: 80px
+      .games-item__bttn
+         display: flex
+         height: 50px
+         width: 206px
+         div
+            text-transform: none
+            font-size: 16px
+            font-weight: 500
+      h1 
+         position: absolute
+         top: 0
+         left: 0
+   .games-item__text
+      font-size: 16px
+      line-height: 150%
+      margin-bottom: 24px
+   .games-item__box .rev__nav
+      max-width: 100%
+   .games-item__view 
+      margin: 80px 0 40px
+      height: 320px
+   .games-item__video
+      width: 90px
+      height: 90px
+      margin-top: -45px
+      margin-left: -45px
+      .svg 
+         width: 100%
+         height: 100%
+   .game4__box
+      h2 
+         text-align: left
+         font-size: 40px
+         font-style: normal
+         font-weight: 500
+         line-height: 120%
+   .games-item__box .game4__box
+      margin-top: 80px
+   .games-item__box .game4__basket
+      display: flex
+      height: 50px
+      width: 206px
+      div
+         text-transform: none
+         font-size: 16px
+         font-weight: 500
+   .game4__pic
+      height: 260px
+   .games-item__title
+      margin-top: 80px
+   .contacts__box .popup__btn
+      height: 56px
+      font-size: 20px
+      text-transform: none
+      font-weight: 500
+   .boss__num
+      font-size: 36px
+      margin-bottom: 16px !important
+   .boss__block
+      margin-right: 20px
+   .boss__pic
+      width: 100%
+   .boss__flex
+      margin-top: 0
+   #incdec #down, #incdec #down2, #incdec #down3, #incdec2 #down, #incdec2 #down2, #incdec2 #down3, #incdec3 #down, #incdec3 #down2, #incdec3 #down3
+      left: -34px
+   .basket__order
+      text-transform: none
+      font-weight: 500
+      font-size: 16px
+   .area__row .games__item:last-child
+      margin-bottom: 0 !important
+   .area .bttn
+      display: flex
+      height: 40px
+      div
+         text-transform: none
+         font-size: 16px
+         font-weight: 500
+         text-align: center
+         line-height: 100%
+   .area .tabs__nav
+      top: 195px
+   .popup__main
+      font-size: 24px
+      margin-bottom: 40px
+   .close-popup2, .close-popup3, .close-popup4, .close-popup5, .close-popup6, .close-popup7, .close-popup8, .close-popup9
+      top: -100px
+   .area3__text p
+      font-size: 16px
+      line-height: 150%
+   .area3__text
+      margin-bottom: 40px
+   .area3__play
+      height: 50px
+   .area3__tags a
+      margin-right: 18px
+   .area3__content .popup__video
+      height: 200px
+   .area3__search
+      width: 140px
+      margin-left: 16px
+      text-transform: none
+      font-weight: 500
+      font-size: 14px
+   .popup__btn
+      height: 56px
+      text-transform: none
+      font-size: 20px
+   .area .tabs__nav .area__link
+      font-size: 20px
+   .area8__info
+      font-size: 97px
+      margin-top: -10px
+   .area8__top
+      flex-direction: column
+   .area8__top p
+      margin-left: 0
+      margin-top: 20px
+   .area8__copy
+      width: 100%
+   .area8__text 
+      font-size: 16px
+      line-height: 150%
 @media screen and (max-width: 360px)
    .cat .tabs__nav a
       font-size: 16px
@@ -737,5 +1082,7 @@
       max-width: 100% 
       a 
          white-space: nowrap
+   .cat .games__text
+      width: auto
 
             

@@ -210,6 +210,11 @@ input:-moz-placeholder
       margin: 0px 2px 0px -8px
 .header 
    padding-bottom: 98px
+   h1 
+      sup 
+         top: -26px
+         left: -5px
+         font-size: 14px
    &__mob
       display: none
    &__nav 
@@ -239,7 +244,7 @@ input:-moz-placeholder
             path 
                fill: $light_blue
    .swiper1 
-      width: 100%
+      width: 113%
       position: relative
       overflow: hidden
       .swiper-slide
@@ -249,9 +254,10 @@ input:-moz-placeholder
       position: relative
       width: 100%
    &__bg 
-      left: -200px
+      left: -236px
       position: relative
       top: 0
+      max-width: 825px
    &__content 
       width: 669px
       height: auto
@@ -720,6 +726,9 @@ input:-moz-placeholder
    &__wrap 
       width: 100%
       margin-top: 46px
+   &__pic 
+      width: 100%
+      max-width: 555px
 .item 
    padding: 50px 0 100px
    &__box 
@@ -745,6 +754,11 @@ input:-moz-placeholder
             margin-right: 40px
          img 
             order: 2
+            position: relative
+            right: 6px
+      img 
+         width: 100%
+         max-width: 670px
    &__content 
       width: 100%
       max-width: 345px
@@ -841,6 +855,9 @@ input:-moz-placeholder
          padding: 32px 24px
          height: 100%
          min-height: 325px
+         &:last-child
+            opacity: 0
+            pointer-events: none
    &__content 
       width: 100%
       margin-top: 50px
@@ -1026,6 +1043,8 @@ input:-moz-placeholder
    &__pic 
       margin-left: auto
       margin-top: auto
+      width: 100%
+      max-width: 670px
 .footer 
    padding: 60px 0 46px 
    background: #001B2D
@@ -1590,6 +1609,7 @@ input:-moz-placeholder
       margin-bottom: 30px
    .games__wrap
       margin-bottom: 150px
+      align-items: flex-start
    .tabs3
       .games__wrap
          margin-bottom: 0
@@ -1604,12 +1624,13 @@ input:-moz-placeholder
       line-height: 130%
       margin-left: 21px
       width: max-content
+      padding-left: 21px
       &.active
          &:after 
             transform: rotate(0deg)
             -webkit-transform: rotate(0deg)
             background: url(/img/acc2.svg) no-repeat !important
-            top: 7px
+            top: 9px !important
       &:after 
          background: url(/img/acc.svg) no-repeat !important
          width: 16px
@@ -1920,6 +1941,18 @@ input:-moz-placeholder
       font-style: normal
       font-weight: 500
       line-height: 130%
+   &__card
+      display: block
+      width: 100%
+      max-width: 405px 
+      margin: 0 auto
+      img 
+         width: 100%
+         height: 100%
+   .game2__card
+      max-width: 450px
+   .game3__card
+      max-width: 304px
 .game3__content 
    width: 100%
    text-align: center
@@ -2048,6 +2081,9 @@ input:-moz-placeholder
          text-transform: uppercase
          &:hover 
             color: $light_blue
+   &__pic 
+      width: 100%
+      max-width: 460px
    &__bottom 
       margin-top: 180px
       .rev__nav
@@ -2323,7 +2359,7 @@ input:-moz-placeholder
       margin-bottom: 0
 .area3 
    &__bottom 
-      margin-top: 50px
+      margin-top: 30px
       align-items: center
       justify-content: space-between
    &__content 
@@ -2492,3 +2528,51 @@ input:-moz-placeholder
 #area8
    .area__buy
       margin-bottom: 0
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button 
+   -webkit-appearance: none
+   appearance: none
+   margin: 0
+   opacity: 0
+#area3
+   .fil .accordeon__button2, .fil .accordeon__button3, .fil .accordeon__button4, .fil .accordeon__button5
+      padding-left: 0
+      margin-bottom: 25px
+   .fil 
+      position: relative
+      .accordeon4
+         padding-bottom: 0
+         width: 100%
+         .panel__text
+            max-width: 100%
+      .popup__video
+         width: 100%
+         height: 320px
+         max-width: 690px
+         margin: 0
+      .accordeon__panel4
+         padding: 0
+         .area3__link
+            display: flex
+      .area3__text
+         margin-top: 30px
+         position: relative
+         margin-bottom: 40px
+         max-width: 690px
+      .accordeon__button4.active
+         &:after 
+            transform: rotate(149deg) !important
+            -webkit-transform: rotate(330deg) !important
+            transform: rotate(330deg) !important
+            top: 6px !important
+      .accordeon__button4:after 
+         transition: 0s
+         top: 5px
+      .area__new 
+         align-items: flex-start
+         .area3__link
+            display: flex
+            position: relative
+            top: 50px
+            right: inherit
+            left: 100px

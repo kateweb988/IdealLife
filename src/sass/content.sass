@@ -293,7 +293,7 @@ input:-moz-placeholder
       display: flex
       align-items: center
       margin: 0 127px
-.swiper-pagination2, .swiper-pagination3, .swiper-pagination4, .swiper-pagination55
+.swiper-pagination2, .swiper-pagination3, .swiper-pagination4, .swiper-pagination55, .swiper-pagination33, .swiper-pagination333
    display: flex
    justify-content: center
    bottom: 19px
@@ -962,7 +962,7 @@ input:-moz-placeholder
             min-height: 325px
       .rev__name
          color: #007CCA
-      .swiper3 
+      .swiper3, .swiper33
          width: 1360px
          max-width: 1360px
          overflow: hidden
@@ -986,7 +986,7 @@ input:-moz-placeholder
          .swiper-slide-active
             &:after 
                opacity: 0
-      .swiper-pagination3
+      .swiper-pagination3, .swiper-pagination33
          position: relative
          color: $blue
          font-size: 20px
@@ -1275,12 +1275,14 @@ input:-moz-placeholder
       left: -409px
       top: 426px
 .art
-   .swiper3 
+   .swiper3, .swiper33, .swiper333
       width: 1360px
       max-width: 1360px
       overflow: hidden
       .swiper-slide
          position: relative
+         &:last-child
+            opacity: 0
          &:after 
             content: ""
             display: block
@@ -1294,13 +1296,14 @@ input:-moz-placeholder
             background: linear-gradient(0deg, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.60) 100%), lightgray 0px -4.449px / 100% 102.617% no-repeat
       .swiper-slide-active
          &:after 
-            opacity: 0
+               opacity: 0
    &__content 
       width: 100%
       max-width: 670px
    .rev__nav
       position: absolute
-      right: -16px
+      right: inherit
+      left: 41%
       top: 516px
       width: 100%
       max-width: 450px
@@ -1313,7 +1316,7 @@ input:-moz-placeholder
          &:hover
             path
                fill: $blue
-   .swiper-pagination3
+   .swiper-pagination3, .swiper-pagination33, .swiper-pagination333
       position: relative
       color: $blue
       font-size: 20px
@@ -1342,6 +1345,9 @@ input:-moz-placeholder
       color: $blue
    .contacts__box
       max-width: 100%
+      &_new 
+         width: 1920px
+         max-width: initial
    h1 
       margin-bottom: 0
    &__time 
@@ -1367,6 +1373,7 @@ input:-moz-placeholder
          font-weight: 500
          line-height: 110%
          text-decoration-line: underline
+         position: relative
    &__prev 
       color: $blue
    &__next 
@@ -2576,3 +2583,7 @@ input[type=number]::-webkit-outer-spin-button
             top: 50px
             right: inherit
             left: 100px
+.swiper11 
+   width: 100%
+   overflow: hidden
+   max-width: 1920px

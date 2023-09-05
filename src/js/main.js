@@ -1076,6 +1076,13 @@ document.addEventListener('DOMContentLoaded', function () {
       prevEl: '.swiper-button-prev1',
     },
   });
+  const swiper11 = new Swiper('.swiper11', {
+    slidesPerView: 1,
+    navigation: {
+      nextEl: '.swiper-button-next11',
+      prevEl: '.swiper-button-prev11',
+    },
+  });
   const swiper2 = new Swiper('.swiper2', {
     slidesPerView: 4,
     spaceBetween: 20,
@@ -1117,6 +1124,70 @@ document.addEventListener('DOMContentLoaded', function () {
     navigation: {
       nextEl: '.swiper-button-next3',
       prevEl: '.swiper-button-prev3',
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        spaceBetween: 0,
+        loop: true,
+        slidesPerView: 1
+      },
+      767: {
+        spaceBetween: 0,
+        slidesPerView: 1
+      },
+      992: {
+        spaceBetween: 0,
+        slidesPerView: 1
+      },
+      1200: {
+        spaceBetween: 20,
+        slidesPerView: 2
+      }
+    }
+  });
+  const swiper33 = new Swiper('.swiper33', {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    pagination: {
+      el: ".swiper-pagination33",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: '.swiper-button-next33',
+      prevEl: '.swiper-button-prev33',
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        spaceBetween: 0,
+        loop: true,
+        slidesPerView: 1
+      },
+      767: {
+        spaceBetween: 0,
+        slidesPerView: 1
+      },
+      992: {
+        spaceBetween: 0,
+        slidesPerView: 1
+      },
+      1200: {
+        spaceBetween: 20,
+        slidesPerView: 2
+      }
+    }
+  });
+  const swiper333 = new Swiper('.swiper333', {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    pagination: {
+      el: ".swiper-pagination333",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: '.swiper-button-next333',
+      prevEl: '.swiper-button-prev333',
     },
     breakpoints: {
       // when window width is >= 320px

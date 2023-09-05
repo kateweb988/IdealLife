@@ -48,6 +48,8 @@
       right: 0
    .game4__box
       padding-left: 11%
+   .art .rev__nav
+      max-width: 357px
 @media screen and (max-width: 1300px)
    .nav__list
       max-width: 564px
@@ -81,6 +83,8 @@
       max-width: 380px
    #area3 .fil .area__new .area3__link
       left: 33px
+   .art .rev__nav 
+      max-width: 277px
 @media screen and (max-width: 1199px)
    #area3 .fil .area__new .area3__link
       left: 23px
@@ -237,12 +241,12 @@
       margin-bottom: 45px
    .blog .contacts__box
       max-width: 100%
-   .art .swiper3 
+   .art .swiper3, .art .swiper33, .art .swiper333
       width: 100%
       max-width: 100%
    .art .blog__content
       width: 100%
-   .art .swiper3 .swiper-slide
+   .art .swiper3 .swiper-slide, .art .swiper33 .swiper-slide, .art .swiper333 .swiper-slide
       img 
          width: 100%
          height: 100%
@@ -366,6 +370,12 @@
       margin-bottom: 365px
    .boss__pic 
       max-width: 456px
+   .art .contacts__box_new
+      width: auto
+   .art .rev__nav
+      left: 0
+   .art .swiper3 .swiper-slide:last-child, .art .swiper33 .swiper-slide:last-child, .art .swiper333 .swiper-slide:last-child
+      opacity: 1
 @media ( max-width: 991px )
    #area3 .fil .area__new
       flex-direction: column-reverse
@@ -888,7 +898,7 @@
       position: absolute
       top: 117px
       right: 0
-   .art .swiper3
+   .art .swiper3, .art .swiper33, .art .swiper333
       height: 260px
       .swiper-slide
          height: 100%
@@ -1121,6 +1131,11 @@
       height: 40px
    #area3 .fil .popup__video
       height: 200px
+   #incdec input, #incdec2 input, #incdec3 input
+      width: 130%
+      text-align: center
+      position: relative
+      left: -12px
 @media screen and (max-width: 360px)
    .cat .tabs__nav a
       font-size: 16px

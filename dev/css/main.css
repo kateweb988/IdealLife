@@ -464,40 +464,40 @@ html *::-webkit-scrollbar-thumb {
 
 @font-face {
   font-family: "DINPro";
-  src: url("/fonts/DINPro-Medium.eot");
-  src: url("/fonts/DINPro-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/DINPro-Medium.woff2") format("woff2"), url("/fonts/DINPro-Medium.woff") format("woff"), url("/fonts/DINPro-Medium.ttf") format("truetype"), url("/fonts/DINPro-Medium.svg#DINPro-Medium") format("svg");
+  src: url("../fonts/DINPro-Medium.eot");
+  src: url("../fonts/DINPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Medium.woff2") format("woff2"), url("../fonts/DINPro-Medium.woff") format("woff"), url("../fonts/DINPro-Medium.ttf") format("truetype"), url("../fonts/DINPro-Medium.svg#DINPro-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "DIN Pro";
-  src: url("/fonts/DINPro.eot");
-  src: url("/fonts/DINPro.eot?#iefix") format("embedded-opentype"), url("/fonts/DINPro.woff2") format("woff2"), url("/fonts/DINPro.woff") format("woff"), url("/fonts/DINPro.ttf") format("truetype"), url("/fonts/DINPro.svg#DINPro") format("svg");
+  src: url("../fonts/DINPro.eot");
+  src: url("../fonts/DINPro.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro.woff2") format("woff2"), url("../fonts/DINPro.woff") format("woff"), url("../fonts/DINPro.ttf") format("truetype"), url("../fonts/DINPro.svg#DINPro") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "DINPro";
-  src: url("/fonts/DINPro-Light.eot");
-  src: url("/fonts/DINPro-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/DINPro-Light.woff2") format("woff2"), url("/fonts/DINPro-Light.woff") format("woff"), url("/fonts/DINPro-Light.ttf") format("truetype"), url("/fonts/DINPro-Light.svg#DINPro-Light") format("svg");
+  src: url("../fonts/DINPro-Light.eot");
+  src: url("../fonts/DINPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Light.woff2") format("woff2"), url("../fonts/DINPro-Light.woff") format("woff"), url("../fonts/DINPro-Light.ttf") format("truetype"), url("../fonts/DINPro-Light.svg#DINPro-Light") format("svg");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "DINPro";
-  src: url("/fonts/DINPro-Bold.eot");
-  src: url("/fonts/DINPro-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/DINPro-Bold.woff2") format("woff2"), url("/fonts/DINPro-Bold.woff") format("woff"), url("/fonts/DINPro-Bold.ttf") format("truetype"), url("/fonts/DINPro-Bold.svg#DINPro-Bold") format("svg");
+  src: url("../fonts/DINPro-Bold.eot");
+  src: url("../fonts/DINPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Bold.woff2") format("woff2"), url("../fonts/DINPro-Bold.woff") format("woff"), url("../fonts/DINPro-Bold.ttf") format("truetype"), url("../fonts/DINPro-Bold.svg#DINPro-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "DINPro";
-  src: url("/fonts/DINPro-Black.eot");
-  src: url("/fonts/DINPro-Black.eot?#iefix") format("embedded-opentype"), url("/fonts/DINPro-Black.woff2") format("woff2"), url("/fonts/DINPro-Black.woff") format("woff"), url("/fonts/DINPro-Black.ttf") format("truetype"), url("/fonts/DINPro-Black.svg#DINPro-Black") format("svg");
+  src: url("../fonts/DINPro-Black.eot");
+  src: url("../fonts/DINPro-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/DINPro-Black.woff2") format("woff2"), url("../fonts/DINPro-Black.woff") format("woff"), url("../fonts/DINPro-Black.ttf") format("truetype"), url("../fonts/DINPro-Black.svg#DINPro-Black") format("svg");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -628,7 +628,7 @@ input:-moz-placeholder {
   border: 1px solid #D9D9D9 !important;
 }
 .popup__flex .custom-checkbox:checked + label::before {
-  background: url(/img/check.svg) no-repeat center center;
+  background: url(../img/check.svg) no-repeat center center;
   background-size: 12px;
 }
 .popup__flex .custom-checkbox + label {
@@ -706,7 +706,7 @@ input:-moz-placeholder {
 }
 
 .custom-checkbox:checked + label::before {
-  background: url(/img/check.svg) no-repeat center center;
+  background: url(../img/check.svg) no-repeat center center;
   background-size: 8px;
 }
 
@@ -1045,7 +1045,7 @@ input:-moz-placeholder {
   height: 5px;
   text-align: center;
   vertical-align: top;
-  background: url(/img/down-arrow.png) no-repeat !important;
+  background: url(../img/down-arrow.png) no-repeat !important;
   position: absolute;
   right: -16px;
   top: 8px;
@@ -1236,7 +1236,7 @@ input:-moz-placeholder {
   content: "";
   position: absolute;
   right: 0px;
-  background: url(/img/down-arrow.png) no-repeat !important;
+  background: url(../img/down-arrow.png) no-repeat !important;
   width: 7px;
   left: inherit;
   height: 5px;
@@ -1250,7 +1250,7 @@ input:-moz-placeholder {
   content: "";
   position: absolute;
   right: 0px;
-  background: url(/img/down-arrow.png) no-repeat !important;
+  background: url(../img/down-arrow.png) no-repeat !important;
   width: 7px;
   left: inherit;
   height: 5px;
@@ -1649,6 +1649,10 @@ input:-moz-placeholder {
 .games-item__wrap {
   align-items: flex-start;
   justify-content: space-between;
+}
+.games-item__wrap img {
+  width: 100%;
+  max-width: 555px;
 }
 .games-item__title {
   margin-top: 150px;
@@ -2243,6 +2247,10 @@ input:-moz-placeholder {
   bottom: -69px;
   height: 124px;
 }
+.art__pic {
+  height: 100%;
+  width: 100%;
+}
 
 .cat .tabs__nav {
   margin-top: 0;
@@ -2328,13 +2336,13 @@ input:-moz-placeholder {
   margin-top: 150px;
 }
 .cat .accordeon__button:after {
-  background: url(/img/own-arrow.svg) no-repeat !important;
+  background: url(../img/own-arrow.svg) no-repeat !important;
   width: 25px;
   height: 25px;
   top: 53px;
 }
 .cat .accordeon__button.active:after {
-  background: url(/img/own-arrow2.svg) no-repeat !important;
+  background: url(../img/own-arrow2.svg) no-repeat !important;
   width: 25px;
   height: 25px;
   -webkit-transform: rotate(0deg);
@@ -2499,10 +2507,10 @@ input:-moz-placeholder {
   fill: #78BBEF;
 }
 .blue .cat .accordeon__button:after {
-  background: url(/img/own-arrow3.svg) no-repeat !important;
+  background: url(../img/own-arrow3.svg) no-repeat !important;
 }
 .blue .cat .accordeon__button.active:after {
-  background: url(/img/own-arrow2.svg) no-repeat !important;
+  background: url(../img/own-arrow2.svg) no-repeat !important;
 }
 .blue .cont__sub {
   -webkit-text-stroke-color: white;
@@ -2517,7 +2525,7 @@ input:-moz-placeholder {
   height: 1900px;
 }
 .blue .menu-btn {
-  background: url(/img/bur-white.svg) no-repeat center center;
+  background: url(../img/bur-white.svg) no-repeat center center;
 }
 .blue .menu .nav__list li a {
   color: #002B46;
@@ -2555,11 +2563,11 @@ input:-moz-placeholder {
 .fil .accordeon__button2.active:after, .fil .accordeon__button3.active:after, .fil .accordeon__button4.active:after, .fil .accordeon__button5.active:after {
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
-  background: url(/img/acc2.svg) no-repeat !important;
+  background: url(../img/acc2.svg) no-repeat !important;
   top: 9px !important;
 }
 .fil .accordeon__button2:after, .fil .accordeon__button3:after, .fil .accordeon__button4:after, .fil .accordeon__button5:after {
-  background: url(/img/acc.svg) no-repeat !important;
+  background: url(../img/acc.svg) no-repeat !important;
   width: 16px;
   height: 16px;
   right: -27px;
@@ -2705,13 +2713,13 @@ input:-moz-placeholder {
   display: none;
 }
 .faq .accordeon__button:after {
-  background: url(/img/own-arrow.svg) no-repeat !important;
+  background: url(../img/own-arrow.svg) no-repeat !important;
   width: 25px;
   height: 25px;
   top: 53px;
 }
 .faq .accordeon__button.active:after {
-  background: url(/img/own-arrow2.svg) no-repeat !important;
+  background: url(../img/own-arrow2.svg) no-repeat !important;
   width: 25px;
   height: 25px;
   -webkit-transform: rotate(0deg);
@@ -2893,7 +2901,7 @@ input:-moz-placeholder {
   line-height: 100%;
 }
 .game1 .selectCF .arrowCF {
-  background: url(/img/wh.svg) no-repeat !important;
+  background: url(../img/wh.svg) no-repeat !important;
   width: 18px;
   height: 14px;
   right: 0;
@@ -3352,6 +3360,39 @@ input:-moz-placeholder {
   padding: 16px 21px 28px;
 }
 
+.bask {
+  position: fixed;
+  right: 10%;
+  z-index: 50;
+  bottom: 10%;
+}
+.bask__num {
+  width: 41.594px;
+  border-radius: 50%;
+  height: 41.594px;
+  border: 2px solid #013E64;
+  color: #013E64;
+  font-size: 16px;
+  font-weight: 700;
+  align-items: center;
+  background: white;
+  justify-content: center;
+  position: relative;
+  top: 18px;
+  right: -35px;
+}
+.bask__block {
+  width: 63.594px;
+  height: 63.594px;
+  border-radius: 50%;
+  background: #013E64;
+  align-items: center;
+  justify-content: center;
+}
+.bask:hover {
+  opacity: 0.8;
+}
+
 #incdec, #incdec2, #incdec3 {
   position: relative;
   width: 35px;
@@ -3492,7 +3533,7 @@ input:-moz-placeholder {
   height: 100%;
   padding-left: 38px;
   font-size: 18px;
-  background: url(/img/search.svg) no-repeat 2.9% 50%;
+  background: url(../img/search.svg) no-repeat 2.9% 50%;
 }
 .area3__form input:focus {
   border: 1px solid #78BBEF !important;
@@ -3750,6 +3791,36 @@ input[type=number]::-webkit-outer-spin-button {
   max-width: 1920px;
 }
 
+.area4 .area3__content {
+  max-width: 100%;
+}
+
+#area3 .area__buy, #area3 .area3__form {
+  max-width: 690px;
+}
+
+.pay .pay__title {
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+.pay .pay__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+.pay__item {
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 562px;
+}
+.pay__item:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1922px) {
   .header__bg {
     left: -192px;
@@ -3896,7 +3967,7 @@ input[type=number]::-webkit-outer-spin-button {
     top: 46px;
     z-index: 11;
     overflow: hidden;
-    background: url(/img/bur.svg) no-repeat center center;
+    background: url(../img/bur.svg) no-repeat center center;
   }
   .menu-btn span {
     width: 38px;
@@ -3970,7 +4041,7 @@ input[type=number]::-webkit-outer-spin-button {
     position: fixed;
     right: 30px;
     top: 30px;
-    background: url(/img/bur2.svg) no-repeat center center;
+    background: url(../img/bur2.svg) no-repeat center center;
   }
   .menu-btn.active span:nth-of-type(1) {
     display: none;
@@ -4822,6 +4893,7 @@ input[type=number]::-webkit-outer-spin-button {
   .games__text {
     font-size: 16px;
     line-height: 130%;
+    width: auto;
   }
   .bttn div:nth-child(2) {
     display: none;
@@ -5289,6 +5361,36 @@ input[type=number]::-webkit-outer-spin-button {
     position: relative;
     left: -12px;
   }
+  .faq h1 {
+    margin-bottom: 160px;
+  }
+  .faq .tabs__nav {
+    flex-wrap: wrap;
+  }
+  .faq .tabs__nav a {
+    margin-bottom: 10px;
+  }
+  .pay__item {
+    margin-bottom: 30px;
+  }
+  .bask {
+    right: 6%;
+    bottom: 6%;
+  }
+  .bask__block {
+    width: 45px;
+    height: 45px;
+  }
+  .bask__block img {
+    width: 50%;
+  }
+  .bask__num {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    top: 15px;
+    right: -27px;
+  }
 }
 @media screen and (max-width: 360px) {
   .cat .tabs__nav a {
@@ -5314,5 +5416,11 @@ input[type=number]::-webkit-outer-spin-button {
   .game4__links a {
     width: 100%;
     margin: 0 auto 10px !important;
+  }
+  .faq .tabs__nav {
+    top: 180px;
+  }
+  .faq h1 {
+    min-height: 96px;
   }
 }
